@@ -99,8 +99,8 @@ body{
 }
 /* عارض الشرائح */
 #carousel-featured {
-    height: 400px;
-    background-color: #fffafa;
+    height: 375px;
+        background-color: #eef4f2;
     padding-top: 25px;
 }
 
@@ -190,4 +190,23 @@ body{
 .fa-chevron-left{
     color:#a0890b;
     font-size: 40px;
+}
+#store-features {
+    background-color: white;
+    box-shadow: 0 0 15px #eef0ea;
+    background-image: url('../images/bg_features.png');
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    position: relative;
+    top: -30px;
+    padding: 35px 0 25px;
+    background-position: -10px -20px;
+}
+
+.feature>img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+.feature+.feature{
+    border-right: 1px solid #eef0ea ;
 }
