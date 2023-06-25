@@ -210,3 +210,87 @@ body{
 .feature+.feature{
     border-right: 1px solid #eef0ea ;
 }
+.heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.custom-thumbnail img {
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.custom-thumbnail {
+    border: 2px solid #eef0ea;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.custom-thumbnail:hover {
+    border-color: #4eb1bf;
+}
+
+.custom-thumbnail h4 {
+    font-size: 18px;
+}
+
+.price {
+    color: #4eb1bf;
+}
+
+.rating {
+    color: #c7c7c7
+}
+
+.rating .active {
+    color: #a0890b;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(83, 204, 215, 0.5);
+    height: 250px;
+    width: calc(100%-16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.add-to-card-btn {
+    color: white;
+    background-color: #4eb1bf;
+    font-weight: 700;
+}
+
+.custom-thumbnail .sale {
+    padding: 5px 10px;
+    position: absolute;
+    left: 16px;
+    top: 14px;
+}
+
+.custom-thumbnail .sale::after {
+    content: '-';
+}
+
+.custom-carousel-indicator2>li {
+    width: 13px !important;
+    height: 13px !important;
+    margin: 2px !important;
+    background-color: #6080f4 !important;
+}
+
+.custom-carousel-indicator2 {
+    bottom: -75px !important;
+}
+
+.custom-carousel-indicator2>li.active {
+    background-color: #565656 !important;
+}
