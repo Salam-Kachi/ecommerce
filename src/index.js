@@ -11,6 +11,3 @@ document.querySelectorAll('.add-to-card-btn').forEach(item=>{
         alert("أضيف الممتج الى عربة الشراء")
     })
 })
-
-console.log('أهلا بك في متجر بالعربي');
-console.log('أهلا بكم في اكاديمية حاسوب')
