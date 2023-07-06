@@ -10,4 +10,15 @@ document.querySelectorAll('.add-to-card-btn').forEach(item=>{
     item.addEventListener('click',()=>{
         alert("أضيف الممتج الى عربة الشراء")
     })
+});
+
+document.querySelectorAll('.size-option input[type="radio"]').forEach(item => {
+    item.addEventListener('change',() => {
+        document.querySelector('.size-option').forEach(i => {
+            i.classList.remove('.active')
+        })
+        item.parentNode.parentNode.classList.add('.active')
+    })
 })
+
+// document.getElementById("copyright").innerHTML="جميع الحقوق محفوظة سنهة  " + new Date().getFullYear();
