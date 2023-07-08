@@ -476,6 +476,31 @@ body{
     color:#f8ad47;
     border-color: #f8ad47;
 }
+.product-quantity select{
+    height: 36px !important;
+    padding: 6px 12px;
+    margin-right: 10px;
+}
+.custom-btn-with-icon{
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.heading-more-description{
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding-bottom: 15px;    
+}
+.heading-inline{
+    display: inline-block;
+    min-width: 250px;
+}
+.more-description p,
+.more-description ul{
+    margin-bottom: 10px;
+}
+
+
+
 @media (max-width: 1399.98px) {}
 @media (max-width: 1199.98px) {
     .carousel-indicators {
