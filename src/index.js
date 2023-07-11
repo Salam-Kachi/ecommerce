@@ -1,4 +1,4 @@
-window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle');
+window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.js');
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
@@ -29,4 +29,4 @@ document.querySelectorAll('.color-option input[type="radio"]').forEach(item => {
     })
 })
 
-// document.getElementById("copyright").innerHTML="جميع الحقوق محفوظة سنهة  " + new Date().getFullYear();
+document.getElementById("copyright").innerHTML="جميع الحقوق محفوظة سنهة  " + new Date().getFullYear();

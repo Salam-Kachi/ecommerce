@@ -498,6 +498,16 @@ body{
 .more-description ul{
     margin-bottom: 10px;
 }
+.comments img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    border: 1px solid #dfdfdf;
+}
+.comments h4{
+    font-size: 18px;
+
+}
 
 
 
@@ -555,6 +565,16 @@ body{
         font-size: 150%;
         margin-top: 10px;
     }
+    .product-images{
+        margin-bottom: 70px;
+    }
+    .product-option{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        margin: 10px;
+        font-size: 20px;
+    }
 }
 @media (max-width: 767.98px) {
     #carousel-featured {
@@ -588,5 +608,8 @@ body{
     }
     #brand-logos .imag-container img {
         margin: 5px 15px;
+    }
+    #form-product-selection, .comments{
+        margin-right: 15px;
     }
 }
