@@ -562,6 +562,23 @@ h1 .custom-heading{
     border-color: #b9001b;
     color:#b9001b;
 }
+
+/* payment page */
+.custom-input-details{
+    border-width: 2px;
+    border-radius: 3px;
+    height: 46px !important;
+    padding: 0 16px;
+    font-size: 18px;
+    width: 98%;
+}
+.custom-input-details:focus{
+    border-color:#b9001b;
+    box-shadow: 0 0 2px 0 #b9001b;
+}
+.font-weight-blod{
+    font-weight: bold;
+}
 @media (max-width: 1399.98px) {}
 @media (max-width: 1199.98px) {
     .carousel-indicators {
