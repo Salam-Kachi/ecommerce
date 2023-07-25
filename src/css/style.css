@@ -216,7 +216,7 @@ body{
 }
 
 .custom-thumbnail img {
-    height: 250px;
+    max-height: 250px;
     width: 100%;
     max-width: 250px;
 }
@@ -386,7 +386,6 @@ body{
     border-color: #b86d07;
     background-color: #b86d07;
 }
-
 .newsletter form button {
     border-radius: 0;
     border-top-left-radius: 3px;
@@ -396,20 +395,17 @@ body{
     color: inherit;
     height: 38px;
 }
-
 #footer-copyright-social {
     padding: 30px 0;
     background-color: #151515;
     color: #303030;
     font-weight: 700;
 }
-
 #footer-copyright-social a {
     text-decoration: none;
     color: #303030;
     margin: 0 5px;
 }
-
 .btn:focus,
 .btn:active {
     outline: none !important;
@@ -506,9 +502,7 @@ body{
 }
 .comments h4{
     font-size: 18px;
-
 }
-
 /* 
 --------checkout page--------
 */
@@ -579,6 +573,57 @@ h1 .custom-heading{
 .font-weight-blod{
     font-weight: bold;
 }
+/*
+------Search Page-----
+*/
+
+#form-advanced-search{
+    border: 1px solid #f4efef;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    height: fit-content;
+}
+#form-advanced-search .card-header{
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding-bottom: 13px;
+}
+.panel{
+    border: none;
+    padding: 5px;
+}
+.custom-list-group{
+    border-bottom: 3px solid red;
+}
+#form-advanced-search .list-group-item{
+    border: none;
+}
+.list-group-item label{
+    font-weight: bold;
+    cursor: pointer;
+}
+.custom-pagination .page-link{
+    margin: 0 3px !important;
+    border: 1px solid #ebebeb !important;
+    width: 32px !important;
+    height: 32px !important;
+    color: #c2c2c2 !important;
+    text-decoration:  none !important;
+    outline: none !important;
+    transition: all 0.3s all !important;
+}
+.custom-pagination .page-item.active .page-link{
+    background-color: #f8ad47 !important;
+    color: white !important;
+    border-color: #f8ad47 !important;
+}
+.custom-pagination .page-link:active,
+.custom-pagination .page-link:focus,
+.custom-pagination .page-link:hover{
+    color: #f8ad47 !important;
+    background-color: white !important;
+    border-color: #f8ad47 !important;
+}
 @media (max-width: 1399.98px) {}
 @media (max-width: 1199.98px) {
     .carousel-indicators {
@@ -642,6 +687,11 @@ h1 .custom-heading{
         line-height: 40px;
         margin: 10px;
         font-size: 20px;
+    }
+    .search-pagination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width: 767.98px) {
